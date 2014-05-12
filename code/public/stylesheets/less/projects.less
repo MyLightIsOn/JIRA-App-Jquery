@@ -1,0 +1,238 @@
+.projects_container{
+    width: 100%;
+    float: left;
+
+    .projects{
+        background-color: @white;
+        margin-bottom: 30px;
+        min-height: 39px;
+        padding: 15px 0px;
+        width: 100%;
+
+        .projects_header{
+            height: 30px;
+            margin: 0 auto;
+            width: 98%;
+        }
+
+        .project_title {
+            position: relative;
+            left: 30px;
+            top: -5px;
+        }
+
+        .project_toggle{
+            background-color: @light-blue;
+            display: block;
+            float: right;
+            height: 30px;
+            position: relative;
+            width: 30px;
+            text-decoration: none;
+            z-index: 1;
+        }
+
+        .project_toggle:hover {
+            background-color: @blue;
+        }
+        .project_toggle:before{
+            border-left: 4px solid @white;
+            border-top: 4px solid @white;
+            color: #FFFFFF;
+            content: "";
+            font-weight: bold;
+            height: 10px;
+            margin-left: 8px;
+            margin-top: 5px;
+            position: absolute;
+            transform:rotate(224deg);
+            -ms-transform:rotate(224deg);
+            -webkit-transform:rotate(224deg);
+            width: 10px;
+        }
+
+        .project_toggle.open:before{
+            margin-left: 8px;
+            margin-top: 11px;
+            transform:rotate(45deg);
+            -ms-transform:rotate(45deg);
+            -webkit-transform:rotate(45deg);
+        }
+
+        .proj_open {
+            margin-top: 30px;
+            min-height: 200px;
+        }
+        .proj_closed {
+            padding-left: 20%;
+            position: relative;
+            top: -30px;
+        }
+
+        .user{
+            float: left;
+            margin-left: 10px;
+            width: 115px;
+
+            &.green{
+                color: @light-blue;
+                img{
+                    border: 4px @green solid;
+                }
+            }
+
+            &.yellow{
+                color: @yellow;
+                img{
+                    border: 4px @yellow solid;
+                }
+            }
+
+            &.red {
+                color: @red;
+                img{
+                    border: 4px @red solid;
+                }
+            }
+
+            img{
+                cursor: pointer;
+            }
+            .percentage{
+                float: right;
+                font-size: 26px;
+            }
+            .percentage:after{
+                content: "%";
+            }
+        }
+        .user_container {
+            color: @dark-blue;
+            margin: 0 auto;
+            width: 98%;
+
+            .user_name{
+                left: 15px;
+                position: relative;
+                top: -11px;
+            }
+
+            .task_details{
+                position: relative;
+                margin-bottom: 45px;
+                top: -19px;
+                .task_title{
+                    position: relative;
+                    left: 350px;
+                    top: -12px;
+                }
+
+                .task_percent {
+                    float: right;
+                    font-size: 20px;
+                    position: relative;
+                    top: -60px;
+                }
+
+                .task_percent:after {
+                    content: "%";
+                }
+
+                .time_info{
+                    float: right;
+                    left: 36px;
+                    position: relative;
+                    top: -12px;
+
+                    .elapsed {
+                        float: right;
+                        margin-right: 40px;
+                    }
+
+                    .elapsed:before{
+                        content: "E:";
+                        margin-right: 5px;
+                    }
+
+                    .remaining {
+                        float: right;
+                    }
+
+                    .remaining:before{
+                        content: "R:";
+                        margin-right: 5px;
+                    }
+                }
+
+                .ui-progressbar, .ui-progressbar-value {
+                    border: 0;
+                    border-radius: 0 0 0 0;
+                    height: 30px;
+                }
+
+                .pbar .ui-progressbar-value {
+                  display:block !important
+                }
+
+                .pbar {
+                    overflow: hidden
+                }
+                .progressbar{
+                    max-width: 95% !important;
+                }
+                .ui-widget-header {
+                    background-image: none !important;
+                }
+
+                .ui-widget-content {
+                    background: @light-gray !important;
+                    background-image: none !important;
+                    width: 97%;
+                }
+
+                .pin{
+                    background-image: url("/img/orig_pin.png");
+                    background-repeat: no-repeat;
+                    height: 30px;
+                    float: left;
+                    position: absolute;
+                    top: -10px;
+                    width: 22px;
+                }
+                .buffer_div{
+                    background-color: @light-gray;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .hidden {
+        display: none;
+    }
+    .visible {
+        display: block;
+    }
+}
+
+.ui-tooltip{
+    background-color: @dark-gray !important;
+    border-radius: 0px !important;
+    border: none !important;
+    color: @white !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    text-align: center;
+}
+  .ui-tooltip:after{
+    border-color: transparent transparent transparent @dark-gray;
+    border-style: solid;
+    border-width: 10px 0 10px 10px;
+    content: "";
+    display: inline-block;
+    margin-left: -3px;
+    position: absolute;
+    transform:rotate(90deg);
+    -ms-transform:rotate(90deg); /* IE 9 */
+    -webkit-transform:rotate(90deg); /* Safari and Chrome */
+}

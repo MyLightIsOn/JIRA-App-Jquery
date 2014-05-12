@@ -1,0 +1,182 @@
+{
+    "projects":[
+        {
+            "projectName": "Jira In Progress Viewer",
+            "projectAvatar": "img/project1.jpg",
+            "projectDetails": [
+                {
+                    "username": "Lawrence Moore",
+                    "userAvatar": "img/avatar1.jpg",
+                    "taskName":"JIV-16 Tech Research",
+                    "task_in_progress":"2013-12-14T18:44:00-06:00",
+                    "origEstimate_weeks":0,
+                    "origEstimate_days":5,
+                    "origEstimate_hours":3,
+                    "origEstimate_minutes":30
+                },{
+                    "username": "Lawrence Moore",
+                    "userAvatar": "img/avatar1.jpg",
+                    "taskName":"JIV-15 Create Database",
+                    "task_in_progress":"2013-12-15T09:52:00-06:00",
+                    "origEstimate_weeks":0,
+                    "origEstimate_days":3,
+                    "origEstimate_hours":0,
+                    "origEstimate_minutes":0
+                },{
+                    "username": "The Punisher",
+                    "userAvatar": "img/avatar3.jpg",
+                    "taskName":"JIV-8 Hunt Kingpin",
+                    "task_in_progress":"2013-12-12T09:52:00-06:00",
+                    "origEstimate_weeks":2,
+                    "origEstimate_days":0,
+                    "origEstimate_hours":6,
+                    "origEstimate_minutes":0
+                },{
+                    "username": "The Punisher",
+                    "userAvatar": "img/avatar3.jpg",
+                    "taskName":"JIV-10 Shoot Criminials",
+                    "task_in_progress":"2013-12-14T09:52:00-06:00",
+                    "origEstimate_weeks":0,
+                    "origEstimate_days":3,
+                    "origEstimate_hours":5,
+                    "origEstimate_minutes":15
+                },{
+                    "username": "The Punisher",
+                    "userAvatar": "img/avatar3.jpg",
+                    "taskName":"JIV-16 General Awesomeness",
+                    "task_in_progress":"2013-12-15T09:52:00-06:00",
+                    "origEstimate_weeks":0,
+                    "origEstimate_days":3,
+                    "origEstimate_hours":6,
+                    "origEstimate_minutes":0
+                }
+            ]
+        },{
+            "projectName": "Revolt",
+            "projectAvatar": "img/project2.jpg",
+            "projectDetails": [
+                {
+                    "username": "Lawrence Moore",
+                    "userAvatar": "img/avatar1.jpg",
+                    "taskName":"REV-1 Social Feed Item",
+                    "task_in_progress":"2013-12-13T13:27:00-06:00",
+                    "origEstimate_weeks":0,
+                    "origEstimate_days":4,
+                    "origEstimate_hours":2,
+                    "origEstimate_minutes":0
+                },{
+                    "username": "Lawrence Moore",
+                    "userAvatar": "img/avatar1.jpg",
+                    "taskName":"REV-2 News Item",
+                    "task_in_progress":"2013-12-15T10:19:00-06:00",
+                    "origEstimate_weeks":1,
+                    "origEstimate_days":4,
+                    "origEstimate_hours":5,
+                    "origEstimate_minutes":0
+                },{
+                    "username": "David Cardine",
+                    "userAvatar": "img/avatar2.jpg",
+                    "taskName":"REV-5 Produce Beats with Diddy",
+                    "task_in_progress":"2013-12-12T09:52:00-06:00",
+                    "origEstimate_weeks":1,
+                    "origEstimate_days":1,
+                    "origEstimate_hours":5,
+                    "origEstimate_minutes":10
+                },{
+                    "username": "David Cardine",
+                    "userAvatar": "img/avatar2.jpg",
+                    "taskName":"REV-13 Freestyle",
+                    "task_in_progress":"2013-12-12T07:42:00-06:00",
+                    "origEstimate_weeks":2,
+                    "origEstimate_days":2,
+                    "origEstimate_hours":0,
+                    "origEstimate_minutes":0
+                },{
+                    "username": "David Cardine",
+                    "userAvatar": "img/avatar2.jpg",
+                    "taskName":"REV-21 Breakdance Training",
+                    "task_in_progress":"2013-11-15T09:24:00-06:00",
+                    "origEstimate_weeks":2,
+                    "origEstimate_days":4,
+                    "origEstimate_hours":7,
+                    "origEstimate_minutes":0
+                }
+            ]
+        },{
+            "projectName": "Test Project",
+            "projectAvatar": "img/project4.jpg",
+            "projectDetails": [
+                {
+                    "username": "Lawrence Moore",
+                    "userAvatar": "img/avatar1.jpg",
+                    "taskName":"Test-1 Test Items",
+                    "task_in_progress":"2013-12-13T14:52:00-06:00",
+                    "origEstimate_weeks":0,
+                    "origEstimate_days":4,
+                    "origEstimate_hours":6,
+                    "origEstimate_minutes":0
+                }
+            ]
+        },{
+            "projectName": "Crayola Path To Purchase",
+            "projectAvatar": "img/project3.jpg",
+            "projectDetails": [
+                {
+                    "username": "Lawrence moore",
+                    "userAvatar": "img/avatar1.jpg",
+                    "taskName":"CRA-3 Base Site Styles",
+                    "task_in_progress":"2013-12-13T14:27:00-06:00",
+                    "origEstimate_weeks":1,
+                    "origEstimate_days":1,
+                    "origEstimate_hours":7,
+                    "origEstimate_minutes":0
+                },{
+                    "username": "Lawrence Moore",
+                    "userAvatar": "img/avatar1.jpg",
+                    "taskName":"CRA-6 Create Service Layer",
+                    "task_in_progress":"2013-12-14T09:00:00-06:00",
+                    "origEstimate_weeks":1,
+                    "origEstimate_days":0,
+                    "origEstimate_hours":4,
+                    "origEstimate_minutes":0
+                },{
+                    "username": "Lawrence Moore",
+                    "userAvatar": "img/avatar1.jpg",
+                    "taskName":"CRA-13 Analytics",
+                    "task_in_progress":"2013-12-12T12:58:00-06:00",
+                    "origEstimate_weeks":1,
+                    "origEstimate_days":2,
+                    "origEstimate_hours":6,
+                    "origEstimate_minutes":30
+                },{
+                    "username": "The Punisher",
+                    "userAvatar": "img/avatar2.jpg",
+                    "taskName":"CRA-10 Shoot Crayons",
+                    "task_in_progress":"2013-12-13T13:13:00-06:00",
+                    "origEstimate_weeks":0,
+                    "origEstimate_days":5,
+                    "origEstimate_hours":2,
+                    "origEstimate_minutes":0
+                },{
+                    "username": "The Punisher",
+                    "userAvatar": "img/avatar2.jpg",
+                    "taskName":"CRA-12 Shoot Criminals with Crayons",
+                    "task_in_progress":"2013-12-14T08:50:00-06:00",
+                    "origEstimate_weeks":0,
+                    "origEstimate_days":2,
+                    "origEstimate_hours":4,
+                    "origEstimate_minutes":30
+                },{
+                    "username": "The Punisher",
+                    "userAvatar": "img/avatar2.jpg",
+                    "taskName":"CRA-13 Shoot some more",
+                    "task_in_progress":"2013-12-15T17:13:00-06:00",
+                    "origEstimate_weeks":1,
+                    "origEstimate_days":0,
+                    "origEstimate_hours":6,
+                    "origEstimate_minutes":0
+                }
+            ]
+        }
+    ]
+}
